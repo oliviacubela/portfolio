@@ -45,12 +45,21 @@ div#hello.card h2 {
 /* Style the topnav links */
 .topnav a {
   float: left;
-  display: block;
+  display: inline-block;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
+/* maybe use flex-basis? https://developer.mozilla.org/en-US/docs/Web/CSS/flex */
+/* .topnav a {
+    position: absolute
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  } */
 
 /* Change color on hover */
 .topnav a:hover {
