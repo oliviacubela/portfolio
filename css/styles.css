@@ -18,6 +18,10 @@ body {
 /* Header/Blog Title */
 .header {
   padding: 30px;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
   text-align: center;
   background: white;
   margin-left: 20px;
@@ -33,6 +37,13 @@ body {
 div#hello.card h2 {
   font-size: 3.5em;
 }
+
+.leftcolumn {
+  float: left;
+  width: 75%;
+  padding-left: 30px;
+}
+
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
@@ -42,15 +53,37 @@ div#hello.card h2 {
   width: auto;
 }
 
+/* .container-fluid {
+  padding: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px; */
+  /* padding-right: 15px;
+  padding-left: 15px; */
+  /* margin-right: auto;
+  margin-left: auto;
+} */
+
 /* Style the topnav links */
 .topnav a {
-  float: left;
-  display: inline-block;
   color: #f2f2f2;
-  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  display: contents;
 }
+
+ul {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-flex;
+}
+
+/* .important {
+
+} */
 /* maybe use flex-basis? https://developer.mozilla.org/en-US/docs/Web/CSS/flex */
 /* .topnav a {
     position: absolute
@@ -94,9 +127,30 @@ div#hello.card h2 {
 /* Add a card effect for articles */
 .card {
   background-color: white;
-  padding: 15px;
-  margin-top: 15px;
+  padding: 30px;
+  margin-top: 30px;
+  border: 30px;
+  border-top-color: initial;
+  border-top-style: initial;
+  border-top-width: 30px;
+  border-right-color: initial;
+  border-right-style: initial;
+  border-right-width: 30px;
+  border-bottom-color: initial;
+  border-bottom-style: initial;
+  border-bottom-width: 30px;
+  border-left-color: initial;
+  border-left-style: initial;
+  border-left-width: 30px;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  margin-inline-start: 15px;
 }
+
+/* Need to fix padding on .card !  */
 
 /* Clear floats after the columns */
 .row:after {
@@ -128,3 +182,41 @@ div#hello.card h2 {
     width: 100%;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* .header {
+  padding: 30px;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  text-align: center;
+  background: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: auto;
+} */
+
+
+/* .leftcolumn {
+  float: left;
+  width: 75%;
+  padding-left: 30px;
+} */
+
+/* .topnav a {
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: contents;
+} */
